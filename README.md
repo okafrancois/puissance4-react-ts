@@ -39,3 +39,18 @@ npm run dev
 - Indicateur du joueur actif
 - Détection automatique des victoires
 - Possibilité de recommencer une partie
+
+## Structure du projet
+
+```
+src/
+  ├── components/       # Composants React
+  │   ├── Board.tsx     # Plateau de jeu
+  │   ├── Cell.tsx      # Cellule individuelle
+  │   └── Game.tsx      # Logique principale du jeu
+  ├── constants.ts      # Constantes du jeu
+  ├── types.ts          # Types TypeScript
+  ├── utils.ts          # Fonctions utilitaires
+  ├── App.tsx           # Composant racine
+  └── main.tsx          # Point d'entrée
+```
